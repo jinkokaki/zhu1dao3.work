@@ -5,6 +5,7 @@ html, body
     font: 18px/1.5, -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     color: #c9d1d9;
     background: #0d1117;
+    display: block;
 }
 
 h1, h2, h3
