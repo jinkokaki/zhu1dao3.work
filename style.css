@@ -1,0 +1,38 @@
+html, body
+{
+    margin: 40px auto;
+    font: 18px/1.5, Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+    color: #c9d1d9;
+    background: #0d1117;
+}
+
+h1, h2, h3
+{
+    line-height: 1.2;
+}
+
+a:link
+{
+    color:#58a6ff
+}
+
+a:visited
+{
+    color:#8e96f0
+}
+
+#main
+{
+    float: left;
+    height: 100%;
+}
+
+#left
+{
+    overflow: visible;
+}
+
+#right
+{
+    overflow: scroll;
+}
