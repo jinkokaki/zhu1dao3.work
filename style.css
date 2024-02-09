@@ -31,16 +31,17 @@ a:visited
     float: left;
     height: 100%;
     width: auto;
+    display: flex;
 }
 
 #left
 {
-    width: 50%;
+    flex: 50%;
     overflow: visible;
 }
 
 #right
 {
-    width: 50%;
+    flex: 50%;
     overflow: auto;
 }
