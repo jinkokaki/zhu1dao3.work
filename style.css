@@ -1,7 +1,7 @@
 html, body
 {
     margin: 40px auto;
-    font: 18px/1.5, Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+    font: 18px/1.5, -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
     color: #c9d1d9;
     background: #0d1117;
 }
@@ -29,10 +29,12 @@ a:visited
 
 #left
 {
+    width: 50%;
     overflow: visible;
 }
 
 #right
 {
-    overflow: scroll;
+    width: 50%;
+    overflow: auto;
 }
