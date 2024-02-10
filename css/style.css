@@ -44,16 +44,47 @@ hr
         text-decoration: none;
         outline-color: transparent;
     }
-    a:hover
+    h3
+    {
+        color: #7d8186;
+    }
+    overflow: hidden;
+}
+
+.proj:hover
+{
+    a
     {
         h2
         {
             color:#ffbb00;
         }
     }
+    background-color: #1a212c;
+}
+
+.exp
+{
     h3
     {
         color: #7d8186;
+        margin: 0 0;
+    }
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-header
+{
+    justify-content: space-between;
+    #one
+    {
+        float: left;
+    }
+    #two
+    {
+        float: right;
+        margin-left: auto;
     }
 }
 
@@ -83,14 +114,16 @@ hr
 
 .column
 {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     gap: 10px;
+    position: relative;
 }
 
 #left
 {
     overflow: visible;
     width: calc(40% - 2rem);
+    height: calc(100vh - 4rem - 80px);
 }
 
 #right
@@ -101,7 +134,24 @@ hr
     height: calc(100vh - 4rem - 80px);
     scrollbar-width: thin;
     scrollbar-color: #334258 #0d1117;
+    padding: 0 1rem;
     width: calc(60% - 2rem);
+}
+
+#portrait-hr
+{
+    border-color: transparent;
+}
+
+.trivia-left
+{
+    position: absolute;
+    bottom: 0;
+}
+
+.trivia-right
+{
+    display: none;
 }
 
 @media only screen and (max-width: 1000px)
@@ -116,11 +166,22 @@ hr
     #left, #right
     {
         padding: 0.5em 0;
+        height: auto;
         width: 80%;
         overflow: visible;
-        hr
+        #portrait-hr
         {
-            border-color: transparent;
+            border-color: #0d1117;
+            margin-bottom: 2em;
         }
+    }
+    .trivia-left
+    {
+        display: none;
+    }
+    .trivia-right
+    {
+        padding-top: 2rem;
+        display: block;
     }
 }
