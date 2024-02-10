@@ -53,6 +53,8 @@ a:visited
     overflow: auto;
     min-height: 0px;
     height: calc(100vh - 4rem - 80px);
+    scrollbar-width: thin;
+    scrollbar-color: #c9d1d9 #0d1117;
 }
 
 @media only screen and (max-width: 900px)
