@@ -9,6 +9,12 @@ body
     background: #0d1117;
 }
 
+h1:left
+{
+    font-size: 2em;
+    line-height: 1.2;
+}
+
 h1, h2, h3
 {
     line-height: 1.2;
@@ -34,7 +40,7 @@ a:visited
 
 .entry:hover
 {
-    color: #c9d1d9 !important;
+    color: #c9d7d9 !important;
 }
 
 .row
